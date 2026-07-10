@@ -1,0 +1,59 @@
+{
+  "id": "evil-playlist",
+  "title": "Evilbram Playlist",
+  "description": "Bibliothèque audio personnelle pour Foundry VTT : playlists, ambiances et soundboard réutilisables entre plusieurs mondes.",
+  "version": "0.1.0",
+  "authors": [
+    {
+      "name": "Evilbram"
+    }
+  ],
+  "compatibility": {
+    "minimum": "13",
+    "verified": "14"
+  },
+  "url": "https://github.com/ctotone/evil-playlist",
+  "manifest": "https://github.com/ctotone/evil-playlist/releases/latest/download/module.json",
+  "download": "https://github.com/ctotone/evil-playlist/releases/latest/download/evil-playlist.zip",
+  "languages": [
+    {
+      "lang": "fr",
+      "name": "Français",
+      "path": "lang/fr.json"
+    }
+  ],
+  "packs": [
+  {
+    "name": "playlists-jdr",
+    "label": "Audio - Playlists JDR",
+    "path": "./packs/playlists-jdr",
+    "type": "Playlist",
+    "ownership": {
+      "PLAYER": "NONE",
+      "TRUSTED": "NONE",
+      "ASSISTANT": "OWNER"
+    }
+  },
+  {
+    "name": "soundboard-sfx",
+    "label": "Audio - Soundboard / Bruitages",
+    "path": "./packs/soundboard-sfx",
+    "type": "Playlist",
+    "ownership": {
+      "PLAYER": "NONE",
+      "TRUSTED": "NONE",
+      "ASSISTANT": "OWNER"
+    }
+  }
+],
+  "packFolders": [
+  {
+    "name": "JDR Audio Library",
+    "sorting": "a",
+    "packs": [
+      "playlists-jdr",
+      "soundboard-sfx"
+    ]
+  }
+  ]
+}
