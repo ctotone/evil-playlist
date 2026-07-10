@@ -13,8 +13,8 @@
     "verified": "14"
   },
   "url": "https://github.com/ctotone/evil-playlist",
-  "manifest": "https://github.com/ctotone/evil-playlist/releases/latest/download/module.json",
-  "download": "https://github.com/ctotone/evil-playlist/releases/latest/download/evil-playlist.zip",
+  "manifest": "https://raw.githubusercontent.com/ctotone/evil-playlist/refs/heads/main/module.json",
+  "download": "https://github.com/ctotone/evil-playlist/archive/refs/tags/evil-playlist.zip",
   "languages": [
     {
       "lang": "fr",
