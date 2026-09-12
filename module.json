@@ -1,8 +1,8 @@
 {
   "id": "evil-playlist",
-  "title": "Evilbram Playlist",
-  "description": "Bibliothèque audio personnelle pour Foundry VTT : playlists, ambiances et soundboard réutilisables entre plusieurs mondes.",
-  "version": "0.1.0",
+  "title": "Evilbram Toolbox",
+  "description": "Boîte à outils transversale pour Foundry VTT : playlists, bruitages, macros MJ/joueur et utilitaires réutilisables entre plusieurs mondes.",
+  "version": "1.0.0",
   "authors": [
     {
       "name": "Evilbram"
@@ -13,8 +13,8 @@
     "verified": "14"
   },
   "url": "https://github.com/ctotone/evil-playlist",
-  "manifest": "https://raw.githubusercontent.com/ctotone/evil-playlist/refs/heads/main/module.json",
-  "download": "https://github.com/ctotone/evil-playlist/archive/refs/tags/evil-playlist.zip",
+  "manifest": "https://github.com/ctotone/evil-playlist/releases/latest/download/module.json",
+  "download": "https://github.com/ctotone/evil-playlist/releases/latest/download/evilbram-toolbox.zip",
   "languages": [
     {
       "lang": "fr",
@@ -23,37 +23,55 @@
     }
   ],
   "packs": [
-  {
-    "name": "playlists-jdr",
-    "label": "Audio - Playlists JDR",
-    "path": "./packs/playlists-jdr",
-    "type": "Playlist",
-    "ownership": {
-      "PLAYER": "NONE",
-      "TRUSTED": "NONE",
-      "ASSISTANT": "OWNER"
+    {
+      "name": "playlists-jdr",
+      "label": "EVILBRAM - Playlists JDR",
+      "path": "./packs/playlists-jdr",
+      "type": "Playlist",
+      "ownership": {
+        "PLAYER": "NONE",
+        "TRUSTED": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "soundboard-sfx",
+      "label": "EVILBRAM - Bruitages & FX",
+      "path": "./packs/soundboard-sfx",
+      "type": "Playlist",
+      "ownership": {
+        "PLAYER": "NONE",
+        "TRUSTED": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "macros",
+      "label": "EVILBRAM - Macros",
+      "path": "./packs/macros",
+      "type": "Macro",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "TRUSTED": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     }
-  },
-  {
-    "name": "soundboard-sfx",
-    "label": "Audio - Soundboard / Bruitages",
-    "path": "./packs/soundboard-sfx",
-    "type": "Playlist",
-    "ownership": {
-      "PLAYER": "NONE",
-      "TRUSTED": "NONE",
-      "ASSISTANT": "OWNER"
-    }
-  }
-],
+  ],
   "packFolders": [
-  {
-    "name": "JDR Audio Library",
-    "sorting": "a",
-    "packs": [
-      "playlists-jdr",
-      "soundboard-sfx"
-    ]
-  }
+    {
+      "name": "EVILBRAM - Audio",
+      "sorting": "a",
+      "packs": [
+        "playlists-jdr",
+        "soundboard-sfx"
+      ]
+    },
+    {
+      "name": "EVILBRAM - Toolbox",
+      "sorting": "a",
+      "packs": [
+        "macros"
+      ]
+    }
   ]
 }

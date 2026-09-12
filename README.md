@@ -1,51 +1,36 @@
-# JDR Audio Library
+# Evilbram Toolbox
 
-Module personnel Foundry VTT pour stocker et réutiliser des playlists audio entre plusieurs mondes.
+Version : 1.0.0
 
-## Installation locale
+Identifiant technique conservé : `evil-playlist`
 
-1. Fermer Foundry.
-2. Copier le dossier `jdr-audio-library` dans :
-   - Windows : `%localappdata%/FoundryVTT/Data/modules/`
-   - Linux/macOS : dossier User Data Foundry, puis `Data/modules/`
-3. Relancer Foundry.
-4. Activer le module dans le monde voulu : `Manage Modules`.
+## Compendiums
 
-## Organisation audio conseillée
+- EVILBRAM - Playlists JDR
+- EVILBRAM - Bruitages & FX
+- EVILBRAM - Macros
 
-Place les fichiers audio dans :
+## Contenu
 
-```text
-assets/audio/music/
-assets/audio/ambience/
-assets/audio/sfx/
-```
+Le module regroupe les playlists et bruitages transversaux ainsi qu'un socle de macros réutilisables entre plusieurs worlds.
 
-Exemple de chemin utilisable dans Foundry :
+Macros incluses :
+- Afficher fiche personnage
+- PROD - Lumière
+- PROD - Couper musique
+- PROD - Reset brouillard
+- FX - Météo
+- FX - Éclair
+- FX - Tic Tac
+- Console MJ
 
-```text
-modules/jdr-audio-library/assets/audio/ambience/western/saloon-01.ogg
-```
+La catégorie JEU de la Console MJ est volontairement conservée comme zone de personnalisation locale propre à chaque world.
 
-## Utilisation des compendiums
+## Compatibilité
 
-Le module déclare cinq compendiums de type Playlist :
+- Foundry VTT minimum : v13
+- Vérifié : v14
 
-- Audio - Western / Deadlands
-- Audio - Pirate
-- Audio - Horreur / Lovecraft
-- Audio - Cyberpunk / Interface
-- Soundboard - Bruitages et transitions
+## Statut
 
-Dans Foundry :
-
-1. Crée ou importe tes playlists dans l'onglet Playlists.
-2. Va dans l'onglet Compendiums.
-3. Déverrouille le compendium cible si nécessaire.
-4. Glisse-dépose une playlist dans le compendium.
-5. Dans un autre monde, active le module et importe la playlist depuis le compendium.
-
-## Important
-
-Ne partage pas publiquement ce module avec des fichiers audio sous licence si tu n'as pas les droits de redistribution.
-Pour GitHub, privilégie un dépôt privé si tu inclus ta bibliothèque audio personnelle.
+Cette archive correspond à la candidate finale 1.0.0 construite à partir des compendiums validés dans le world atelier.
