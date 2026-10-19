@@ -1,6 +1,6 @@
 # Evilbram Toolbox
 
-Version : 1.0.0
+Version : 1.1.0
 
 Identifiant technique conservé : `evil-playlist`
 
@@ -12,7 +12,7 @@ Identifiant technique conservé : `evil-playlist`
 
 ## Contenu
 
-Le module regroupe les playlists et bruitages transversaux ainsi qu'un socle de macros réutilisables entre plusieurs worlds.
+Le module regroupe les playlists et bruitages transversaux, un socle de macros réutilisables entre plusieurs worlds et des utilitaires d'interface communs.
 
 Macros incluses :
 - Afficher fiche personnage
@@ -26,6 +26,21 @@ Macros incluses :
 
 La catégorie JEU de la Console MJ est volontairement conservée comme zone de personnalisation locale propre à chaque world.
 
+
+## Visualisation des permissions
+
+Evilbram Toolbox intègre la fonctionnalité **Ownership Viewer**.
+
+Elle affiche directement dans les répertoires Foundry des marqueurs visuels indiquant les niveaux de propriété accordés aux joueurs pour les Documents compatibles (Actors, Journals, Items, Macros, RollTables, Cards, etc.).
+
+- losange : accès Limited ;
+- carré : accès Observer ;
+- cercle : accès Owner ;
+- couleur : couleur du joueur ;
+- marqueur multicolore : permission appliquée à tous les joueurs.
+
+La fonctionnalité est active automatiquement lorsque Evilbram Toolbox est activé.
+
 ## Compatibilité
 
 - Foundry VTT minimum : v13
@@ -33,4 +48,4 @@ La catégorie JEU de la Console MJ est volontairement conservée comme zone de p
 
 ## Statut
 
-Cette archive correspond à la candidate finale 1.0.0 construite à partir des compendiums validés dans le world atelier.
+Cette archive correspond à la candidate 1.1.0 intégrant Ownership Viewer dans Evilbram Toolbox.

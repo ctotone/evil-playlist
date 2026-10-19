@@ -1,8 +1,8 @@
 {
   "id": "evil-playlist",
   "title": "Evilbram Toolbox",
-  "description": "Boîte à outils transversale pour Foundry VTT : playlists, bruitages, macros MJ/joueur et utilitaires réutilisables entre plusieurs mondes.",
-  "version": "1.0.0",
+  "description": "Boîte à outils transversale pour Foundry VTT : playlists, bruitages, macros MJ/joueur, visualisation des permissions et utilitaires réutilisables entre plusieurs mondes.",
+  "version": "1.1.0",
   "authors": [
     {
       "name": "Evilbram"
@@ -73,5 +73,11 @@
         "macros"
       ]
     }
+  ],
+  "scripts": [
+    "scripts/tools/ownership-viewer.js"
+  ],
+  "styles": [
+    "styles/tools/ownership-viewer.css"
   ]
 }

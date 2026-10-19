@@ -1,5 +1,15 @@
 # Changelog
 
+## 1.1.0
+
+- intégration de la fonctionnalité `Ownership Viewer` directement dans Evilbram Toolbox ;
+- affichage des marqueurs de permissions/propriété dans les répertoires Foundry compatibles ;
+- prise en charge des répertoires Actors, Journals, Items, Macros, RollTables et Cards ainsi que des pages de Journal ;
+- conservation du comportement v13/v14 du module d'origine ;
+- ajout des fichiers `scripts/tools/ownership-viewer.js` et `styles/tools/ownership-viewer.css` ;
+- ajout d'une attribution tierce CC BY 4.0 ;
+- aucun changement des compendiums, playlists ou macros existants.
+
 ## 1.0.0
 
 - première version stable de `Evilbram Toolbox` ;
